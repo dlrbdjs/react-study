@@ -24,4 +24,10 @@ import mul from "./math.js";
 console.log(mul(1, 2));
 
 // 이렇게 같은 경로를 공유하는 경우에는 한 번에 가능
-import mul, { add, sub, add2, sub2 } from "./math.js";
+// import mul, { add, sub, add2, sub2 } from "./math.js";
+
+// randomcolor 라이브러리 사용해 보기
+import randomColor from "randomcolor";
+
+const color = randomColor();
+console.log(color);
